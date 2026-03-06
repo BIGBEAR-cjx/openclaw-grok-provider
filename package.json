@@ -1,0 +1,47 @@
+{
+  "name": "@openclaw/provider-grok",
+  "version": "1.0.0",
+  "description": "Official Grok API provider for OpenClaw",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/**/*.ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "openclaw",
+    "grok",
+    "xai",
+    "ai",
+    "provider",
+    "llm"
+  ],
+  "author": "BIGBEAR-cjx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BIGBEAR-cjx/openclaw-grok-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BIGBEAR-cjx/openclaw-grok-provider/issues"
+  },
+  "homepage": "https://github.com/BIGBEAR-cjx/openclaw-grok-provider#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
