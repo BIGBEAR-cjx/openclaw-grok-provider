@@ -106,4 +106,8 @@ export function createGrokProvider(apiKey) {
 }
 // Default export
 export default GrokProvider;
+// Re-export from other modules
+export { streamChatCompletion } from "./streaming.js";
+export { calculateRequestCost, compareModelCosts, recommendModel, CostTracker } from "./cost-calculator.js";
+export { createOpenClawAdapter, GrokOpenClawAdapter } from "./adapter.js";
 //# sourceMappingURL=index.js.map

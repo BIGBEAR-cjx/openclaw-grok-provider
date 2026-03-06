@@ -73,4 +73,7 @@ export declare class GrokProvider {
 }
 export declare function createGrokProvider(apiKey: string): GrokProvider;
 export default GrokProvider;
+export { streamChatCompletion } from "./streaming.js";
+export { calculateRequestCost, compareModelCosts, recommendModel, CostTracker } from "./cost-calculator.js";
+export { createOpenClawAdapter, GrokOpenClawAdapter } from "./adapter.js";
 //# sourceMappingURL=index.d.ts.map
