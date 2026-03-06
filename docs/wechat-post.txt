@@ -1,0 +1,27 @@
+🎉 分享一个刚发布的开源项目
+
+Grok Provider for OpenClaw
+
+直接对接 xAI 官方 API，不是 HuggingFace 路由！
+
+💰 能省多少钱？
+- 比 HuggingFace 节省 33%
+- grok-4-fast 只要 $0.20/M
+
+✨ 有什么特别？
+- 2M 上下文窗口（超大）
+- 能获取 X 平台实时信息
+- Grok 4 刚发布，热度很高
+
+🛠️ 技术栈
+- TypeScript
+- 13 个测试全部通过
+- CI/CD 自动化
+
+📦 安装
+npm install @openclaw/provider-grok
+
+🔗 GitHub
+github.com/BIGBEAR-cjx/openclaw-grok-provider
+
+欢迎试用、提 issue、给 star！

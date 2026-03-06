@@ -1,0 +1,14 @@
+🚀 Just launched: Grok Provider for OpenClaw!
+
+Official xAI API integration with 33% cost savings vs HuggingFace route.
+
+✅ 4 models (grok-4-fast with 2M context!)
+✅ Real-time X platform data
+✅ Full TypeScript support
+✅ 13 tests passing
+
+Perfect timing with Grok 4 release & SpaceX acquisition news.
+
+GitHub: github.com/BIGBEAR-cjx/openclaw-grok-provider
+
+#OpenClaw #Grok #xAI #opensource #AI

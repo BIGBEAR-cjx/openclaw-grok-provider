@@ -1,0 +1,55 @@
+发布了一个开源项目：Grok Provider for OpenClaw
+
+项目地址：https://github.com/BIGBEAR-cjx/openclaw-grok-provider
+
+## 介绍
+
+这是一个 OpenClaw 的 Provider 插件，让你可以直接使用 xAI 的 Grok API。
+
+## 为什么做这个？
+
+1. **市场空白**：OpenClaw 生态系统中没有任何 Grok Provider
+2. **时机完美**：Grok 4 刚发布，xAI 被 SpaceX 收购，关注度极高
+3. **成本优势**：比 HuggingFace 路由节省 33%
+4. **独特功能**：Grok 可以获取 X 平台的实时信息
+
+## 成本对比
+
+| 模型 | xAI 官方 | HuggingFace | 节省 |
+|------|----------|-------------|------|
+| grok-4-fast | $0.20/M | ~$0.30/M | 33% |
+| grok-4 | $3.00/M | ~$4.50/M | 33% |
+
+## 技术特点
+
+- TypeScript 完整类型支持
+- 13 个单元测试全部通过
+- CI/CD 自动化
+- OpenAI-compatible API
+
+## 安装使用
+
+```bash
+npm install @openclaw/provider-grok
+```
+
+配置：
+```json5
+{
+  env: { XAI_API_KEY: "xai-..." },
+  agents: {
+    defaults: {
+      model: { primary: "grok/grok-4-fast" }
+    }
+  }
+}
+```
+
+## 支持的模型
+
+- grok-4-fast：2M 上下文，速度快，成本低
+- grok-4：旗舰推理模型
+- grok-3：上一代模型
+- grok-2： legacy 支持
+
+欢迎试用、提 issue、给 star！
